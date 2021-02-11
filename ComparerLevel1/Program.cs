@@ -41,6 +41,9 @@ namespace ComparerLevel1
             {
                 Console.WriteLine(change);
             }
+
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
     }
 }
