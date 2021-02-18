@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NO6Og6kZ4s/HbZ/nJ63hIphZx/OPIbZfdu/Ajj19ghwurZ2sC81XWRsBzOz7Z/S60xPef1GEoOuUxnHicgn2jw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\FileComparer\\ComparerLevel2\\ComparerLevel2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olezh\\.nuget\\packages\\common.logging\\3.4.1\\common.logging.3.4.1.nupkg.sha512",
+    "C:\\Users\\olezh\\.nuget\\packages\\common.logging.core\\3.4.1\\common.logging.core.3.4.1.nupkg.sha512",
+    "C:\\Users\\olezh\\.nuget\\packages\\itext7\\7.1.14\\itext7.7.1.14.nupkg.sha512",
+    "C:\\Users\\olezh\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\olezh\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\olezh\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

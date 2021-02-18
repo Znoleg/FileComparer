@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net450</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -34,6 +34,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="itext7" Version="7.1.14" />
+		<PackageReference Include="System.ValueTuple" Version="4.5.0" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -1,8 +1,0 @@
-2021-02-11 01:24:57.2928 | INFO | ComparerLevel3.Program | C:\Projects\original.txt and C:\Projects\modified.txt files: 
-
-2021-02-11 01:24:57.3274 | INFO | ComparerLevel3.Program | a:  <removed line from original>
-2021-02-11 01:24:57.3327 | INFO | ComparerLevel3.Program | the:  <added line to modified>
-2021-02-11 01:24:57.3327 | INFO | ComparerLevel3.Program | additional:  <added line to modified>
-2021-02-11 01:24:57.3327 | INFO | ComparerLevel3.Program | simple:  <added line to modified>
-2021-02-11 01:24:57.3327 | INFO | ComparerLevel3.Program | 123:  <removed line from original>
-2021-02-11 01:24:57.3482 | INFO | ComparerLevel3.Program | added:  <added line to modified>

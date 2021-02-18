@@ -60,8 +60,8 @@ namespace ComparerLevel2
             StreamReader original = new StreamReader(_originalFile);
             StreamReader modified = new StreamReader(_modifiedFile);
 
-            var originalText = original.ReadToEnd().Split("\n");
-            var modifiedText = modified.ReadToEnd().Split("\n");
+            var originalText = original.ReadToEnd().Split('\n');
+            var modifiedText = modified.ReadToEnd().Split('\n');
             
             original.Close();
             modified.Close();
@@ -104,12 +104,12 @@ namespace ComparerLevel2
             for (int i = 1; i <= originalPDF.GetNumberOfPages(); i++)
             {
                 string originalPage = PdfTextExtractor.GetTextFromPage(originalPDF.GetPage(i));
-                originalText.AddRange(originalPage.Split("\n"));
+                originalText.AddRange(originalPage.Split('\n'));
             }
             for (int i = 1; i <= modifiedPDF.GetNumberOfPages(); i++)
             {
                 string modifiedPage = PdfTextExtractor.GetTextFromPage(modifiedPDF.GetPage(i));
-                modifiedText.AddRange(modifiedPage.Split("\n"));
+                modifiedText.AddRange(modifiedPage.Split('\n'));
             }
 
             originalPDF.Close();

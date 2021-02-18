@@ -6,21 +6,34 @@ namespace ComparerLevel3
 {
     class Program
     {
-        static (string originalPath, string modifiedPath) GetFilePaths()
+        static (string originalPath, string modifiedPath) GetFilePaths(string possibleOriginal = null, string possibleModified = null)
         {
-            Console.WriteLine("Enter original file path: ");
-            var originalPath = Console.ReadLine();
-            Console.WriteLine("Enter modified file path: ");
-            var modifiedPath = Console.ReadLine();
+            if (possibleOriginal is null)
+            {
+                Console.WriteLine("Enter original file path: ");
+                possibleOriginal = Console.ReadLine();
+            }
+            if (possibleModified is null)
+            {
+                Console.WriteLine("Enter modified file path: ");
+                possibleModified = Console.ReadLine();
+            }
 
-            return (originalPath, modifiedPath);
+            return (possibleOriginal, possibleModified);
         }
 
         static void Main(string[] args)
         {
             Logger logger = LogManager.GetCurrentClassLogger();
 
-            var (originalPath, modifiedPath) = GetFilePaths();
+            string original = null, possible = null;
+            try
+            {
+                if (args[0] != null) original = args[0];
+                if (args[1] != null) possible = args[1];
+            }
+            catch { };
+            var (originalPath, modifiedPath) = GetFilePaths(original, possible);
 
             FileComparer fileComparer;
             while (true)

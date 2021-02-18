@@ -1,0 +1,17 @@
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\Interop.Microsoft.Office.Core.dll
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\Interop.Microsoft.Office.Interop.Word.dll
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\ComparerLevel1.csproj.ResolveComReference.cache
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\ComparerLevel1.AssemblyInfoInputs.cache
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\ComparerLevel1.AssemblyInfo.cs
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\ComparerLevel1.csproj.CoreCompileInputs.cache
+C:\Projects\FileComparer\ComparerLevel1\bin\Debug\net450\ComparerLevel1.exe.config
+C:\Projects\FileComparer\ComparerLevel1\bin\Debug\net450\ComparerLevel1.exe
+C:\Projects\FileComparer\ComparerLevel1\bin\Debug\net450\ComparerLevel1.pdb
+C:\Projects\FileComparer\ComparerLevel1\bin\Debug\net450\Interop.Microsoft.Office.Core.dll
+C:\Projects\FileComparer\ComparerLevel1\bin\Debug\net450\Interop.Microsoft.Office.Interop.Word.dll
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\ComparerLevel1.csproj.CopyComplete
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\ComparerLevel1.exe
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\ComparerLevel1.pdb
+C:\Projects\FileComparer\ComparerLevel1\bin\Debug\net450\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\ComparerLevel1.csprojAssemblyReference.cache
+C:\Projects\FileComparer\ComparerLevel1\obj\Debug\net450\ComparerLevel1.csproj.Fody.CopyLocal.cache
